@@ -1,0 +1,5 @@
+server:
+  port: 8081
+
+rest:
+  url: "http://webserver-svc:8080/"
