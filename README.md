@@ -168,7 +168,7 @@ $kubectl get svc
 
 <img width="417" alt="스크린샷 2023-05-08 오후 9 19 13" src="https://user-images.githubusercontent.com/79779676/236822146-5a9f2a22-f4c0-4681-aaf0-7c74b821ec53.png">
 
-URI를 'http://10.96.0.1:8080'으로 요청하면 됩니다.
+URI를 'http://10.100.36.230:8080'으로 요청하면 됩니다.
 
 하지만, service가 삭제되면 cluster-IP가 바뀔텐데 어떻게 적용하지? 라는 의문이 생깁니다.
 
