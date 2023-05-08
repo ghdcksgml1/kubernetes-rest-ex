@@ -2,6 +2,15 @@
 
 쿠버네티스 내에서 REST API 통신을 실험하는 예제
 
+- 실습 환경
+    - Kubernetes v1.26.3
+    - Calico CNI
+    - Spring boot v3.0.6
+    - jdk 17
+    - Docker
+    - Docker Hub
+    - 우리집
+
 ## Docker Hub URL
 
 미리 만들어둔 Spring Boot Image를 사용합니다.
