@@ -47,7 +47,7 @@ kind: Service
 metadata:
   labels:
     app: webserver
-  name: webserver-svc
+  name: webserver-hello-svc
 spec:
   ports:
   - port: 8080
@@ -58,6 +58,8 @@ spec:
     protocol: TCP
     targetPort: 8081
     name: webserver-rest
+  clusterIPs:
+    - 127.0.0.1 # 본인 아이피 적기
   selector:
     app: webserver
   type: LoadBalancer
